@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haruwin Website</title>
+    
+    <!-- Bootstrap Scripts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="Images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="Images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <!--The Navigation Bar Section-->
+    <nav class="navbar fixed-top navbar-expand-md bg-light navbar-light">
+        <a class="navbar-brand" href="#">
+            <img class="nav-logo" src="Images/haruwin_logo.jpg" alt="Logo">
+            Haruwin
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#harunav" aria-controls="harunav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id = "harunav">
+            <ul class="navbar-nav  ms-auto">
+                <li class="navbar-item">
+                    <a class="nav-link" href="#intro-block">介绍 Intro</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#fixture">赛程 Fixture</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#history">大事记 History</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    其他平台 Contact Us
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"><span id = "redbook">小红书</span></a></li>
+                    <li><a class="dropdown-item" href="https://weibo.com/n/haruwin%E5%A5%B3%E5%AD%90%E8%B6%B3%E7%90%83%E9%98%9F" id="weibo">微博 Weibo</a></li>
+                    <li><a class="dropdown-item" href="#"><span id="jike">即刻</span></a></li>
+                    <li><a class="dropdown-item" href="https://www.instagram.com/haruwinofficial/" id="Ins">Instagram</a></li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCP8QU_WPa6a1TfX19nkExbg" id="YouTube">YouTube</a></li>
+                    <li><a class="dropdown-item" href="#"><span id = "wechat">微信公众号</span></a></li>
+                    <li><a class="dropdown-item" href="#">微店</a></li>
+                    </ul>
+                </li>
+            </ul>  
+        </div>
+    </nav>
+    <!--Content Section-->
+    <div class="content">
+        <div class="row">
+            <div class="col-md-8" id = "intro-block">
+                <h1>HARUWIN</h1>
+                <div id ="intro">
+                    <h2>我们是谁？</h2>
+                    <h2>Who are we?</h2>
+                    <p class="lead">Haruwin，2021 年夏成立于北京。</p>
+                    <p>我们是由一群快乐、团结的足球新手们组成的一支业余女子足球队，经过一年的发展壮大，目前已拥有正式队员 30 余人。</p>
+                    <p>成立至今，队员们已参与过精神糖“快乐杯”、CIFL Division2 等正式比赛，并获得精神文明奖、队史首胜等荣誉。</p>
+                    <p>Haruwin希望更多女性能参与到户外运动中来，享受足球和奔跑带来的乐趣。</p>  
+                    <p>Looking for your goal！</p>
+                </div>
+            </div>
+            <div class="col-md-4" id="cover-video">
+                <video controls src="Images/cover-video.mp4" type = "video/mp4"></video>
+            </div>
+        </div>
+        <div id = "fixture">
+            <h1>2022 秋季赛程</h1>
+        </div>
+        <div class="row">
+            <div class = "col-md-6" id="fixture-1">
+                <h2>“半年一度”女足高校联赛</h2>
+                <img class = "fixture-weekend" src="Images/fixture-weekend.png" alt="Fixture-1">
+            </div>
+            <div  class = "col-md-6" id="fixture-2">
+                <a href="http://chinaifl.com/women-7s-division-2"><h2>CIFL WOMEN'S LEAGUE</h2></a>
+                <img class = "fixture-CIFL" src="Images/fixture-CIFL.jpg" alt="Fixture-2">
+            </div>
+        </div>
+        <div id = "history">
+            <h1>球队大事记</h1>
+            <div class="timeline-container">
+	
+                <div class="timeline-item" date-is='2021-6'>
+                    <h2>一帮人开始踢球了</h2>
+                    <p>
+                        因为 shangqing 学踢球的愿望，教练 wenjian 开始带着几个同事们蹭场练球。
+                    </p>
+                    <p>
+                        夏天的球场，夕阳真的很美。
+                    </p>
+                </div>
+                
+                <div class="timeline-item" date-is='2021-9-20'>
+                    <h2>精神糖俱乐部邀请我们参加女足比赛，正式建队</h2>
+                    <p>
+                        在训练后的聚餐上，wenjian 问大家要不要参赛，
+                    </p>
+                    <p>
+                        Maggie 说：去吧！有钱拿！
+                    </p>
+                </div>
+                
+                    <div class="timeline-item" date-is='2021-12'>
+                    <h2>第一次参赛</h2>
+                    <p>作为一支初出茅庐的纯业余队伍参加了糖果“快乐杯”女足比赛。
+                    </p>
+                    <p>虽然连场落败，但我们踢得很开心！最后勇夺“精神文明奖”。
+                    </p>
+                </div>
+                
+                <div class="timeline-item" date-is='2022-3 — 2022-6'>
+                    <h2>招募新队员，队伍逐渐壮大</h2>
+                    <p> 许多朋友从媒体渠道找到我们，加入球队。
+                    </p>
+                    <p> 球队逐渐从小圈子圈地自萌，变成了有青训入队项目、有内部分工（教练组、商品组、设计组 etc.）的“豪门球队”。
+                    </p>
+                </div>
+
+                <div class="timeline-item" date-is='2022-7'>
+                    <h2>队史首胜</h2>
+                    <p>在盛夏里参加了友队教练老徐组织的暑假杯，获得了队史首胜！
+                    </p>
+                </div>
+
+                <div class="timeline-item" date-is='2022-9 — 2022-11'>
+                    <h2>双线作战</h2>
+                    <p> 秋天，我们同时参加了 CIFL 女足联赛和“半年一度”女足高校联赛（作为社会球队哈哈哈）。一周两赛一训，高密度的赛事和训练，有压力也有动力，成果如何，就拭目以待吧！
+                    </p>
+                </div>
+
+                <div class="timeline-item" date-is=''>
+                    <h2>更多</h2>
+                    <p>
+                        未完待续……
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!--Carousel Section for Photos-->
+        <div id="album" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#album" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#album" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#album" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#album" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#album" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#album" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#album" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#album" data-bs-slide-to="7" aria-label="Slide 8"></button>
+              <button type="button" data-bs-target="#album" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              <button type="button" data-bs-target="#album" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            </div>
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Images/album/1.jpg" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="Images/album/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>“半年一度”女足联赛</h5>
+                  <p>和友队“棉被网友”在一起</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="Images/album/3.jpg" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="Images/album/4.jpg" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="Images/album/5.jpg" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="Images/album/6.jpg" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="Images/album/7.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>2022年的第一场训练</h5>
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="Images/album/8.jpg" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="Images/album/9.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>“拿到大满贯！”</h5>
+                  <p>奖杯永远不嫌多</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="Images/album/10.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Dou 给大家画的圣诞卡片</h5>
+                  <p>我们是兔子球队！</p>
+                </div>
+              </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#album" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#album" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+    </div>
+    
+</div>
+<div class="footer">
+    <p class="brand">Haruwin @2022</p>
+</div>
+</body>
+</html>

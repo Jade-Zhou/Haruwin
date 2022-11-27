@@ -1,0 +1,154 @@
+body{
+    background-image: url(Images/bg.png);
+    text-align: center;
+    font-family: 'Ubuntu', 'Noto Serif SC', sans-serif !important;color:#fff !important;
+}
+
+div{
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+a:hover{
+    color: rgb(98, 126, 116);
+}
+
+.navbar{
+    padding: 5px 0 5px 0;
+    border: #fff solid;
+    border-width: 0px 0px 2px 0px;
+}
+
+.nav-logo{
+    margin-left: 50px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.navbar-nav{
+    margin-right: 5%;
+}
+
+#album{
+    margin: 4rem;
+}
+
+#Ins:hover{
+    text-decoration: underline ;
+}
+
+#jike:hover{
+    content: url(Images/jike_qrcode.jpg);
+    width: 150px;
+}
+
+#redbook:hover{
+    content: url(Images/redbook_qrcode.png);
+    width: 150px;
+}
+
+#wechat:hover{
+    content: url(Images/wechat_qrcode.jpeg);
+    width: 150px;
+}
+
+#weibo:hover{
+    text-decoration: underline ;
+}
+
+#YouTube:hover{
+    text-decoration: underline ;
+}
+
+#intro-block{
+    padding-top: 3rem;
+}
+
+#intro{
+    text-align: left;
+}
+
+#cover-video{
+    margin-top: 50px;
+}
+
+#fixture{
+    margin-top: 50px;
+}
+
+#history{
+    margin-top: 50px;
+}
+
+.collapse{
+    padding-top: 0px;
+}
+
+.content{
+    padding-top: 2.5rem;
+}
+
+.container-fluid{
+    padding: 10px 8% 0 8%;
+}
+
+.timeline-container {
+	width: 90%;
+	margin: 0 auto;
+    text-align: left;
+}
+
+
+.timeline-item {
+	padding: 2.5em 2em 0.2em 2em;
+	position: relative;
+	color: white;
+	border-left: 2px solid;
+    border-color: white;
+}
+
+.timeline-item::before {
+		content: attr(date-is);
+		position: absolute;
+		left: 2em;
+		font-weight: bold;
+		top: 1em;
+		display: block;
+		font-weight: 700;
+		font-size: 0.9rem;
+	}
+
+.timeline-item::after {
+		width: 10px;
+		height: 10px;
+		display: block;
+		top: 1em;
+		position: absolute;
+		left: -7px;
+		border-radius: 10px;
+		content: '';
+		border: 2px solid;
+        border-color: white;
+		background: white;
+	}
+
+.timeline-item:last-child{
+    border-image: linear-gradient(white, rgba(255,255,255,0)) 0.8;
+}
+
+.footer{
+    background-color: rgba(255,255,255,0.4);
+    margin-top: 3rem;
+}
+
+.brand{
+    margin: 0;
+}
